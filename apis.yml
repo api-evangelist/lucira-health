@@ -1,7 +1,29 @@
 aid: lucira-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lucira-health.png
 name: Lucira Health
-description: Lucira Health is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Lucira Health (formerly Diassess Inc.) was a molecular diagnostics company based in
+  Emeryville, California that developed single-use, disposable RT-LAMP test kits designed
+  for at-home use. Its Lucira COVID-19 All-In-One Test Kit received the first FDA Emergency
+  Use Authorization for an over-the-counter at-home molecular COVID-19 test, and the company
+  later introduced the first at-home combination COVID-19 and influenza (flu) test. Lucira
+  Health filed for Chapter 11 bankruptcy in February 2023 and its assets were subsequently
+  acquired by Pfizer. The company is a consumer medical-device and diagnostics business; it
+  published no public developer API, developer portal, or machine-readable API specification.
+  This profile is maintained in the API Evangelist network as a company record; the legacy
+  lucirahealth.com domain is now managed under Pfizer's email/DNS infrastructure and no longer
+  serves a working web presence.
 url: https://raw.githubusercontent.com/api-evangelist/lucira-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +33,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Diagnostics
+- Health
+- Medical Devices
+- COVID-19
+- Molecular Diagnostics
+- At-Home Testing
+- Life Sciences
+common:
+- type: DomainSecurity
+  url: security/lucira-health-domain-security.yml
+- type: Website
+  url: https://lucirahealth.com
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
